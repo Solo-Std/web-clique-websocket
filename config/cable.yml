@@ -1,0 +1,12 @@
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: redis://redistogo:e1718fe51c566b35841f7eb9e8b002b7@cod.redistogo.com:11455/
+  host: cod.redistogo.com
+  port: 11455
+  channel_prefix: web-clique-websocket_production
